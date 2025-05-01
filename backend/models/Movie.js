@@ -1,7 +1,7 @@
 // backend/models/Movie.js
 import { Sequelize, DataTypes } from 'sequelize';
 
-const sequelize = new Sequelize('test', 'root', '109Mojonera', {
+const sequelize = new Sequelize('test', 'root', '######', {
   host: 'localhost',
   dialect: 'mysql',
 });
