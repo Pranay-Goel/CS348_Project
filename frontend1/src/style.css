@@ -1,0 +1,88 @@
+.App{
+    height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.books, .movies {
+    display: flex;
+    gap: 10px;
+}
+
+.book, .movie {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: rgb(2, 253, 153);
+}
+
+.delete{
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245,191,191);
+    color: rgb(242,100,100)
+}
+
+.update{
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245,191,191);
+    color: rgb(139,139,234)
+}
+
+.movie-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid rgb(245,191,191);
+    border-radius: 5px;
+}
+
+.formButton{
+    padding: 10px;
+    background-color: rgb(245,191,191);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newMovie-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    margin-top: 50px; /* Adds space from the book list */
+}
+
+.newMovie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(113, 242, 137);
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+}
